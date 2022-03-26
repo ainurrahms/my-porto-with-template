@@ -18,7 +18,7 @@ interface Props {
   Posts: [PostType];
 }
 
-const Home: FC<Props> = ({ Posts }) => {
+const Home: FC<Props> = () => {
   return (
     <div>
       <Head>
@@ -42,10 +42,8 @@ const Home: FC<Props> = ({ Posts }) => {
       <main className="relative pl-5 mb-10">
         <Intro />
         <About />
-        <Testimonials />
         <Projects />
         <Skills />
-        <Blog Posts={Posts} />
         <Contact />
       </main>
     </div>

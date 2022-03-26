@@ -12,7 +12,7 @@ const Intro = () => {
       id="intro"
       className="space-y-5 mt-20 md:h-[60vh] md:ml-20"
     >
-      <p className="text-3xl text-neongreen font-fira">Hi, my name is</p>
+      <p className="text-3xl text-neongreen font-fira">Hello, my name is</p>
       <h1 className="text-5xl font-extrabold text-text md:text-8xl">
         {data.name}
       </h1>

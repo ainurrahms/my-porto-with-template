@@ -7,7 +7,7 @@ import Title from "./Title";
 const Projects = () => {
   return (
     <div id="work" className="md:ml-20">
-      <Title num={3} title="Some Things I’ve Built" />
+      <Title num={2} title="Some Things I’ve Built" />
 
       <div className="flex flex-col">
         {data.projects.map((project, i) => (

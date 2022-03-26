@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-scroll";
 import { useDimensions } from "../hooks/useDimensions";
 import Logo from "./Logo";
-import { MenuToggle, Navigation } from "./header";
+import { MenuToggle, Navigation } from "./header/";
 
 const sidebar = {
   open: (height = 1000) => ({
@@ -51,20 +51,12 @@ const Header = () => {
       href: "about",
     },
     {
-      name: "Testimonials",
-      href: "testimonials",
-    },
-    {
       name: "Work",
       href: "work",
     },
     {
       name: "Skills",
       href: "skills",
-    },
-    {
-      name: "Blog",
-      href: "blog",
     },
     {
       name: "Contact",
@@ -74,9 +66,8 @@ const Header = () => {
 
   return (
     <nav
-      className={`px-8 md:px-24 fixed md:py-4 py-6 bg-bgblue/60 backdrop-filter backdrop-blur-xl w-full top-0 z-50 flex justify-between items-center ${
-        handleShow ? "shadow-2xl" : ""
-      }`}
+      className={`px-8 md:px-24 fixed md:py-4 py-6 bg-black/60 backdrop-filter backdrop-blur-xl w-full top-0 z-50 flex justify-between items-center ${handleShow ? "shadow-2xl" : ""
+        }`}
     >
       <Link
         activeClass="active"
