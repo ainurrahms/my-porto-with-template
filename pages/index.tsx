@@ -52,13 +52,13 @@ const Home: FC<Props> = () => {
 
 export default Home;
 
-export const getStaticProps: GetStaticProps = async () => {
-  const Posts = await getPosts("avneesh0612");
+// export const getStaticProps: GetStaticProps = async () => {
+//   const Posts = await getPosts("avneesh0612");
 
-  return {
-    props: {
-      Posts: Posts.publication.posts,
-    },
-    revalidate: 600,
-  };
-};
+//   return {
+//     props: {
+//       Posts: Posts.publication.posts,
+//     },
+//     revalidate: 600,
+//   };
+// };

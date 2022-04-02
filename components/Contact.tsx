@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import ContactButtons from "./ContactButtons";
 import data from "../public/data.json";
@@ -12,7 +11,7 @@ const Contact = () => {
     >
       <div className="flex items-center justify-center mt-10 space-x-5">
         <LineSvg className="relative w-20 h-1 md:w-60" />
-        <h2 className="text-xl text-text md:text-4xl whitespace-nowrap">
+        <h2 className="text-xl text-white md:text-4xl whitespace-nowrap">
           Get in Touch
         </h2>
         <LineSvg className="relative w-20 h-1 md:w-60" />

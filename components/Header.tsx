@@ -79,7 +79,6 @@ const Header = () => {
         href="intro"
         title="Avneesh"
       >
-        <Logo className="cursor-pointer" />
       </Link>
 
       <motion.nav
@@ -98,7 +97,7 @@ const Header = () => {
         {headerItems.map((item, i) => (
           <li
             key={i}
-            className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen"
+            className="border-b-2 border-transparent cursor-pointer text-white hover:border-white"
           >
             <Link
               activeClass="active"
@@ -109,7 +108,7 @@ const Header = () => {
               duration={500}
               href={item.href}
             >
-              <span className="text-neongreen">{i + 1}. </span>
+              <span className="text-white">{i + 1}. </span>
               {item.name}
             </Link>
           </li>

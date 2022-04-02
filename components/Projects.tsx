@@ -26,7 +26,7 @@ const Projects = () => {
             </div>
 
             <div className="ml-2 md:ml-20 md:w-1/3">
-              <h3 className="mt-5 text-3xl font-semibold text-neongreen">
+              <h3 className="mt-5 text-3xl font-semibold text-white">
                 {project.name}
               </h3>
               <p className="mt-2 sm:mt-5 text-textdark">{project.about}</p>
@@ -41,7 +41,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                   href={project.links.GitHub}
-                  className="flex items-center px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current hover:bg-neongreen hover:border-neongreen hover:backdrop-blur-lg border-neongreen group-hover:text-white hover:text-white text-neongreen"
+                  className="flex items-center px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current hover:bg-white hover:border-white hover:backdrop-blur-lg border-white group-hover:text-black hover:text-black text-white"
                 >
                   <GitHubIcon />
 
@@ -51,7 +51,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                   href={project.links.Live}
-                  className="flex items-center px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current text-darkerblue bg-neongreen border-neongreen hover:bg-transparent hover:text-neongreen"
+                  className="flex items-center px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current text-black bg-white border-white hover:bg-transparent hover:text-white"
                 >
                   <VisitIcon />
                   <span className="ml-2">Visit</span>
