@@ -3,7 +3,7 @@
   "image": "/Me.png",
   "profession": "Software Engineer",
   "intro": "",
-  "about": "I am a full-stack web developer who loves to design and develop beautiful websites. I have been coding for over a year and enjoying every part of my journey. I love documenting my journey by writing blog posts and teaching others through my writing.",
+  "about": "I am a ordinary people who love code. I dont just write a code, im also solved the problems.",
   "skills": [
     {
       "src": "/logos/github.svg",
@@ -28,23 +28,13 @@
   ],
   "projects": [
     {
-      "name": "Voyager",
-      "image": "/projects/Voyagger.png",
-      "about": "These tough times have made us all aware of the importance of our loved ones and through this app, users can bring a their family and friend's faces by sending them their favoritedelicacy, medicines, or a simple heartfelt gift.",
-      "tech": ["Next.js", "Auth0", "Firebase", "TailwindCSS"],
+      "name": "TBD",
+      "image": "/projects/example.jpg",
+      "about": "Soon will be updated!",
+      "tech": [],
       "links": {
-        "GitHub": "https://github.com/avneesh0612/voyagger",
-        "Live": "https://www.voyagger.tech"
-      }
-    },
-    {
-      "name": "ChatCube",
-      "image": "/projects/Chatcube.png",
-      "about": "ChatCube is a 1:1 chatting application. You can invite your friends and chat with in realtime. You can send them emojis, photos text messages and many more.",
-      "tech": ["Next.js", "Auth0", "Firebase", "TailwindCSS"],
-      "links": {
-        "GitHub": "https://github.com/avneesh0612/ChatCube",
-        "Live": "https://www.chatcube.me"
+        "GitHub": "",
+        "Live": ""
       }
     }
   ],
@@ -52,17 +42,26 @@
     {
       "name": "GitHub",
       "icon": "github.svg",
-      "link": "https://github.com/avneesh0612"
+      "link": "https://github.com/ainurrahms"
     },
     {
       "name": "Mail me",
       "icon": "mail.svg",
-      "link": "mailto:avneeshagarwal0612@gmail.com"
+      "link": "mailto:ainurrahms@gmail.com"
     },
     {
       "name": "LinkedIn",
       "icon": "linkedin.svg",
-      "link": "https://www.linkedin.com/in/avneesh-agarwal-78312b20a"
+      "link": "https://www.linkedin.com/in/ainurrahms"
+    }
+  ],
+  "testimonials":[
+    {
+      "value":"",
+      "link":"",
+      "pfp":"",
+      "name":"",
+      "relation":""
     }
   ]
 }

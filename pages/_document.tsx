@@ -14,14 +14,14 @@ class MyDocument extends Document {
             rel="alternate"
             type="application/rss+xml"
             title="RSS"
-            href="https://www.avneesh.tech/rss.xml"
+            href="l"
           />
           <meta
             name="keywords"
-            content="Avneesh, Agarwal, Avneesh Agarwal, web dev, blogger, content creator"
+            content=""
           />
-          <link rel="manifest" href="/manifest.json" />
-          <link rel="apple-touch-icon" href="/icon.png"></link>
+          <link rel="manifest" href="" />
+          <link rel="apple-touch-icon" href=""></link>
           <meta name="theme-color" content="#fff" />
         </Head>
         <body>

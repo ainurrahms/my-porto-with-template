@@ -35,7 +35,7 @@ const Path = (props: pathProps) => (
 
 const MenuToggle: FC<MenuToggleProps> = ({ toggle }) => (
   <button
-    className="absolute flex items-center justify-center w-12 h-12 border-none rounded-full outline-none cursor-pointer select-none fill-current text-neongreen bg-neongreen top-6 md:top-4 right-7"
+    className="absolute flex items-center justify-center w-12 h-12 border-none rounded-full outline-none cursor-pointer select-none fill-current text-black bg-white top-6 md:top-4 right-7"
     onClick={toggle}
   >
     <svg width="23" height="21" viewBox="0 0 23 21">

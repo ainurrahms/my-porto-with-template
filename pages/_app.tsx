@@ -19,30 +19,30 @@ function MyApp({ Component, pageProps }: AppProps) {
         titleTemplate={data.name}
         defaultTitle={data.name}
         description={data.about}
-        canonical="https://www.avneesh.tech/"
+        canonical=""
         openGraph={{
-          url: "https://www.avneesh.tech/",
+          url: "",
           title: data.name,
           description: data.about,
           images: [
             {
-              url: "https://www.avneesh.tech/og-image.png",
+              url: "",
               width: 800,
               height: 420,
               alt: data.name,
             },
           ],
           profile: {
-            firstName: "Avneesh",
-            gender: "Male",
-            lastName: "Agarwal",
-            username: "avneesh0612",
+            firstName: "",
+            gender: "",
+            lastName: "",
+            username: "",
           },
         }}
         twitter={{
-          handle: "@avneesh0612",
-          site: "@avneesh0612",
-          cardType: "summary_large_image",
+          handle: "",
+          site: "",
+          cardType: "",
         }}
       />
       <Head>
@@ -50,11 +50,11 @@ function MyApp({ Component, pageProps }: AppProps) {
           rel="alternate"
           type="application/rss+xml"
           title="RSS"
-          href="https://www.avneesh.tech/rss.xml"
+          href=""
         />
         <meta
           property="og:image"
-          content="https://www.avneesh.tech/og-image.png"
+          content=""
         />
       </Head>
       <Component {...pageProps} />

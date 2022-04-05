@@ -16,9 +16,6 @@ const Intro = () => {
       <h1 className="text-5xl font-extrabold text-white md:text-8xl">
         {data.name}
       </h1>
-      <h2 className="text-4xl text-white md:text-6xl">
-        I build awesome websites!
-      </h2>
       <p className="w-4/5 md:w-3/5 text-white">
         I&rsquo;m a <span className="text-white">{data.profession}. </span>
         {data.intro}

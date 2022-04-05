@@ -24,15 +24,15 @@ const Home: FC<Props> = () => {
       <Head>
         <meta
           name="keywords"
-          content="Avneesh, Agarwal, Avneesh Agarwal, web dev, blogger, content creator"
+          content=""
         />
         <link
           rel="alternate"
           type="application/rss+xml"
           title="RSS"
-          href="https://www.avneesh.tech/rss.xml"
+          href=""
         />
-        <link rel="icon" href="/logo.svg" />
+        <link rel="icon" href="" />
       </Head>
 
       <div className="h-[10vh]">

@@ -54,13 +54,13 @@ const headerItems = [
 const MenuItem: FC = () => {
   return (
     <motion.ul
-      className="flex flex-col min-h-screen pt-5 pl-10 mt-0 mb-5 -mr-10 space-y-5 list-none bg-bgblue backdrop-blur-md"
+      className="flex flex-col min-h-screen pt-5 pl-10 mt-0 mb-5 -mr-10 space-y-5 list-none bg-slate-700 backdrop-blur-md"
       variants={variants}
     >
       {headerItems.map((item, i) => (
         <li
           key={i}
-          className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen"
+          className="border-b-2 border-transparent cursor-pointer text-white hover:border-white"
         >
           <Link
             activeClass="active"
@@ -71,7 +71,7 @@ const MenuItem: FC = () => {
             duration={500}
             href={item.href}
           >
-            <span className="text-neongreen">{i + 1}. </span>
+            <span className="text-white">{i + 1}. </span>
             {item.name}
           </Link>
         </li>
