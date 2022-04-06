@@ -66,8 +66,9 @@ const Header = () => {
 
   return (
     <nav
-      className={`px-8 md:px-24 fixed md:py-4 py-6 bg-black/60 backdrop-filter backdrop-blur-xl w-full top-0 z-50 flex justify-between items-center ${handleShow ? "shadow-2xl" : ""
-        }`}
+      className={`px-8 md:px-24 fixed md:py-4 py-6 bg-black/60 backdrop-filter backdrop-blur-xl w-full top-0 z-50 flex justify-between items-center ${
+        handleShow ? "shadow-2xl" : ""
+      }`}
     >
       <Link
         activeClass="active"
@@ -78,8 +79,7 @@ const Header = () => {
         duration={500}
         href="intro"
         title="Avneesh"
-      >
-      </Link>
+      ></Link>
 
       <motion.nav
         className="absolute top-0 left-0 w-full md:hidden"

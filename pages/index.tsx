@@ -22,16 +22,8 @@ const Home: FC<Props> = () => {
   return (
     <div>
       <Head>
-        <meta
-          name="keywords"
-          content=""
-        />
-        <link
-          rel="alternate"
-          type="application/rss+xml"
-          title="RSS"
-          href=""
-        />
+        <meta name="keywords" content="" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="" />
         <link rel="icon" href="" />
       </Head>
 

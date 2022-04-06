@@ -46,16 +46,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         }}
       />
       <Head>
-        <link
-          rel="alternate"
-          type="application/rss+xml"
-          title="RSS"
-          href=""
-        />
-        <meta
-          property="og:image"
-          content=""
-        />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="" />
+        <meta property="og:image" content="" />
       </Head>
       <Component {...pageProps} />
     </>

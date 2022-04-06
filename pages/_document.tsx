@@ -16,10 +16,7 @@ class MyDocument extends Document {
             title="RSS"
             href="l"
           />
-          <meta
-            name="keywords"
-            content=""
-          />
+          <meta name="keywords" content="" />
           <link rel="manifest" href="" />
           <link rel="apple-touch-icon" href=""></link>
           <meta name="theme-color" content="#fff" />

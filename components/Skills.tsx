@@ -12,8 +12,9 @@ const Skills = () => {
         {data.skills.map((skill, i) => (
           <motion.a
             key={i}
-            className={`${i === 0 ? "ml-10 md:ml-0" : ""
-              } cursor-pointer relative w-20 h-20`}
+            className={`${
+              i === 0 ? "ml-10 md:ml-0" : ""
+            } cursor-pointer relative w-20 h-20`}
             href={skill.link}
             target="_blank"
             rel="noreferrer"
